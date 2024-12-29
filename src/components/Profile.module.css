@@ -9,6 +9,12 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.profile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
 }
 
 /* Avatar styling */
